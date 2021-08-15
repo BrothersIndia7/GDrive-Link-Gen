@@ -8,7 +8,8 @@ import os
 import logging
 import re
 import http.client
-import urllib2
+impprt urllib.error
+import urllib.request
 import json
 import html
 import telegram
