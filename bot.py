@@ -7,7 +7,7 @@ import subprocess
 import os
 import logging
 import re
-import httplib
+import http.client
 import urllib2
 import json
 import html
