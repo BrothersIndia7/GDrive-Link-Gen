@@ -25,7 +25,7 @@ def is_downloadable(url):
 def download(url, userfile):
     filename='none'
     try:
-	filename = wget.download(url)('%20',' ')
+	filename = wget.download(url, ,%20', ' ')
         name = re.sub('%20', ' ', filename)
 	if userfile:
         	filename = os.rename(filename, userfile)
