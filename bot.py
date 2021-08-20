@@ -11,7 +11,6 @@ import http.client
 import urllib2
 import json
 import html
-import telegram
 from functools import wraps
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton as Button
 from telegram.ext import Updater
