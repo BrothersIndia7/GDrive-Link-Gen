@@ -8,6 +8,7 @@ import os
 import logging
 import re
 import urllib2
+import urllib.error
 import wget
 import os.path
 
