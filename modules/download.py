@@ -22,11 +22,11 @@ def is_downloadable(url):
 		return False
 	return True
 
-def download(url, userfile):
+def download(url, filename):
     filename='none'
     try:
         name = re.sub('%20', ' ', filename)
-	if userfile:
+	if filename:
         	filename = os.rename(filename, userfile)
         	filename = userfile
 	else:
