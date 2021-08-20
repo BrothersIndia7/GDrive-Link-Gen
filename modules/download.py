@@ -44,4 +44,3 @@ def download(url, filename):
 			cmd_output = subprocess.check_output("wget '{}'".format(url), stderr=subprocess.STDOUT, shell=True)
 		raw_filename = re.findall(r' - ‘(.*?)’ saved', cmd_output)
 		filename = str(raw_filename[0])
-         
