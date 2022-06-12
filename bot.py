@@ -36,8 +36,7 @@ import modules.upload as upload
 from modules.text_data import Text
 from modules.credentials import Creds
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                     level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
 size = "empty"
 filename="none"
