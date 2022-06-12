@@ -38,7 +38,7 @@ from modules.credentials import Creds
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
-size = "empty"
+size="empty"
 filename="none"
 userfile="none"
 usr_id = int(Creds.USER_ID)
