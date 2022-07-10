@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (C) 2019 Atul-Kadian
+# Copyright (C) 2019 kirodewal 
 
 from __future__ import unicode_literals
 import youtube_dl
