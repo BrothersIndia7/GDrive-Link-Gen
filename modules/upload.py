@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (C) 2019 Atul-Kadian
+# Copyright (C) 2022 Kirodewal 
 
 import sys
 import time
@@ -32,7 +32,7 @@ def upload(filename):
 	# Check https://developers.google.com/drive/scopes for all available scopes
 	OAUTH_SCOPE = 'https://www.googleapis.com/auth/drive.file'
 	# Redirect URI for installed apps, can be left as is
-	REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
+	REDIRECT_URI = 'http://localhost:1'
 
 
 	def file_ops(filename):
