@@ -7,6 +7,7 @@ import subprocess
 import os
 import logging
 import re
+import urllib.error
 import urllib2
 import wget
 import os.path
