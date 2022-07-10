@@ -38,7 +38,7 @@ def download(url, filename):
             downloader.start()
             downloader.subscribe(callback, callback_threshold)
             downloader.wait_for_finish()"""
-         if filename:
+        if filename:
             cmd_output = subprocess.check_output("wget -O '{}' '{}'".format(filename, url), stderr=subprocess.STDOUT, shell=True)
 	else:
             cmd_output = subprocess.check_output("wget '{}'".format(url), stderr=subprocess.STDOUT, shell=True)
